@@ -1,0 +1,49 @@
+{
+    "linha1": [
+        {
+            "shade": "A",
+            "icon": "sap-icon://activity-individual",
+            "title": "Titulo teste",
+            "text": "blablablabla",
+            "key": "title1"
+        },
+        {
+            "shade": "B",
+            "icon": "sap-icon://activity-individual",
+            "title": "Titulo teste",
+            "text": "blablablabla",
+            "key": "title1"
+        },
+        {
+            "shade": "A",
+            "icon": "sap-icon://activity-individual",
+            "title": "Titulo teste",
+            "text": "blablablabla",
+            "key": "title1"
+        }
+    ],
+    "linha2": [
+        {
+            "shade": "B",
+            "icon": "sap-icon://activity-individual",
+            "title": "Titulo teste",
+            "text": "blablablabla",
+            "key": ""
+        },
+        {
+            "shade": "A",
+            "icon": "sap-icon://activity-individual",
+            "title": "Titulo teste",
+            "text": "blablablabla",
+            "key": ""
+        },
+        {
+            "shade": "B ",
+            "icon": "",
+            "title": "Titulo teste",
+            "text": "blablablabla",
+            "key": ""
+        }
+        
+    ]
+}

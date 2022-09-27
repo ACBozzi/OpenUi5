@@ -1,0 +1,61 @@
+<mvc:View controllerName="com.myorg.project1.controller.MainView"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+    xmlns:tnt="sap.tnt"
+    xmlns:l="sap.ui.layout"
+    xmlns:core="sap.ui.core">
+
+    <tnt:ToolPage id="toolPage">
+
+        <tnt:header>
+            <tnt:ToolHeader>
+                <Button text="Menu" press="recolheMenu" />
+                <ToolbarSpacer/>
+                <Button text="Usuário" press="onUsernamePress"/>
+            </tnt:ToolHeader>
+        </tnt:header>
+
+        <tnt:sideContent>
+            <tnt:SideNavigation>
+                <tnt:NavigationList>
+                    <tnt:NavigationListItem href="" text="Home" icon=""/>
+                    <tnt:NavigationListItem href="" text="Settings" icon=""/>
+                    <tnt:NavigationListItem href="" text="Statistics" icon=""/>
+                </tnt:NavigationList>
+            </tnt:SideNavigation>
+        </tnt:sideContent>
+
+        <tnt:mainContents>
+
+            <Page showHeader="false">
+                <Image width="100%" src="https://openui5.hana.ondemand.com/test-resources/sap/tnt/demokit/toolpageapp/webapp/images/homeImage.jpg" />
+                <l:BlockLayout>
+                    <l:BlockLayoutRow content="{tiles_menu>/linha1}">
+                        <l:BlockLayoutCell backgroundColorSet="ColorSet11" backgroundColorShade="ShadeA">
+                            <l:VerticalLayout>
+                                <core:Icon src="{tiles_menu>icon}"/>
+                                <Title text="{tiles_menu>title}"/>
+                                <Text text="{tiles_menu>text}"/>
+                                <Button text="{tiles_menu>title}"/>
+                            </l:VerticalLayout>
+                        </l:BlockLayoutCell>
+                    </l:BlockLayoutRow>
+                    <l:BlockLayoutRow content="{tiles_menu>/linha2}">
+                        <l:BlockLayoutCell backgroundColorSet="ColorSet11" backgroundColorShade="ShadeB">
+                            <l:VerticalLayout>
+                                <core:Icon src="{tiles_menu>icon}"/>
+                                <Title text="{tiles_menu>title}"/>
+                                <Text text="{tiles_menu>text}"/>
+                                <Button text="{tiles_menu>title}"/>
+                            </l:VerticalLayout>
+                        </l:BlockLayoutCell>
+                    </l:BlockLayoutRow>
+                </l:BlockLayout>
+                
+            
+            </Page>
+        </tnt:mainContents>
+
+    </tnt:ToolPage>
+</mvc:View>
