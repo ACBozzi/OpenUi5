@@ -11,6 +11,7 @@ Esse repositório contém uma abordagem sobre o framework OpenUi5 e como utiliz�
   yo
 
 -Para criar o novo projeto
+
   -Criar uma nova pasta onde o projeto será armazenado (EX: nova pasta na área de trabalho com o nome “Novo projeto”)
   -abrir a pasta com o um editor de texto
   -abrir o terminal
