@@ -1,4 +1,4 @@
-Esse repositório contém uma abordagem sobre o framework OpenUi5 e como utilizá-lo para a criação de aplicações Web.
+Esse repositório contém uma abordagem sobre o framework OpenUi5 e como utilizá-lo para a criação de aplicações Web. Com objetivo de iniciar os conhecimentos pessoais sobre o framework.
 
 -Módulos necessários
   Realizar o download e instalação do Node.js
